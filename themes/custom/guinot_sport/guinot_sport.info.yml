@@ -1,0 +1,39 @@
+# Theme en Dev
+# Stagiaire
+name: guinot_sport
+type: theme
+# base theme: classy
+description: "Theme guinot_sport"
+#package: Core
+version: 000
+core: 8.x
+
+regions:
+  header: Header
+  content: Content
+  footer: Footer
+
+libraries:
+  -guinot_sport/librairies
+  -guinot_sport/foundation
+
+
+#libraries-override:
+  # Remplacer une librairie entière.
+  #core/drupal.collapse: mytheme/collapse
+  
+  # Remplacer une ressouce par une autre.
+  #subtheme/library:
+   # css:
+    #  theme:
+     #   css/layout.css: css/my-layout.css
+  
+  # Supprimer une ressource.
+  #drupal/dialog:
+   # css:
+    #  theme:
+     #   dialog.theme.css: false
+  
+  # Supprimer une librairie entière.
+  #core/modernizr: false
+  

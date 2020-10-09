@@ -1,0 +1,6 @@
+name: Form Abonnement Activités
+description: Form Page Module
+package: Custom 
+type: module 
+version: 0.02 
+core: 8.x

@@ -1,0 +1,7 @@
+form_enregistrement:
+ path:  /form/enregistrement
+ defaults:
+   _title: Enregistrement
+   _form:  \Drupal\form_enregistrement\Form\FormEnregistrement
+ requirements:
+   _permission: 'access content' 

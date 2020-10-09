@@ -1,0 +1,55 @@
+<diagram program="umletino" version="14.4.0-SNAPSHOT"><zoom_level>10</zoom_level><help_text>&lt;&lt;entity&gt;&gt;
+Activités
+--
+nomCom : chaîne
+lesSecteurs : Collection de secteur
+
+--
+commune(nomcom : chaîne
+volumeVans() : entier
+</help_text><element><id>UMLClass</id><coordinates><x>130</x><y>240</y><w>200</w><h>140</h></coordinates><panel_attributes>&lt;&lt;entity&gt;&gt;
+Stagiaire
+--
+nomCom : chaîne
+lesSecteurs : Collection de secteur
+
+--
+commune(nomcom : chaîne
+volumeVans() : entier
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>20</x><y>40</y><w>200</w><h>160</h></coordinates><panel_attributes>&lt;&lt;entity&gt;&gt;
+Personnel
+--
+nomCom : chaîne
+lesSecteurs : Collection de secteur
+
+--
+commune(nomcom : chaîne
+volumeVans() : entier
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>420</x><y>60</y><w>310</w><h>160</h></coordinates><panel_attributes>&lt;&lt;entity&gt;&gt;
+Activite
+--
+nomCom : chaîne
+lesSecteurs : Collection de secteur
+
+--
+commune(nomcom : chaîne
+volumeVans() : entier
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>10</x><y>430</y><w>310</w><h>160</h></coordinates><panel_attributes>&lt;&lt;entity&gt;&gt;
+Abonnement
+--
+nomCom : chaîne
+lesSecteurs : Collection de secteur
+
+--
+commune(nomcom : chaîne
+volumeVans() : entier
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>500</x><y>400</y><w>310</w><h>160</h></coordinates><panel_attributes>&lt;&lt;entity&gt;&gt;
+Pratiquant
+--
+nomCom : chaîne
+lesSecteurs : Collection de secteur
+
+--
+commune(nomcom : chaîne
+volumeVans() : entier
+</panel_attributes><additional_attributes></additional_attributes></element></diagram>

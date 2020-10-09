@@ -1,0 +1,28 @@
+global-styling:
+  version: 1.x
+  css:
+    base:
+      css/style.css: {}
+      #css/base/elements.css: {}
+    layout:
+      css/style.css: {}
+    theme:
+      css/style.css: {}
+      #css/print.css: { media: print }
+  js:
+    js/app.js: {}
+  dependencies:
+    - core/jquery
+
+foundation:
+  version: 6.6.3
+  css:
+    theme:
+      vendor/foundation/css/app.css: {}
+      vendor/foundation/css/foundation.min.css: {}
+  js:
+    vendor/foundation/js/vendor/foundation.js: {}
+    vendor/foundation/js/vendor/what-input.js: {}
+    vendor/foundation/js/app.js: {}
+  dependencies:
+    - core/jquery
